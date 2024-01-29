@@ -3,3 +3,5 @@ config:
   esc-pulumi-ghactions:containerPort: "80"
   esc-pulumi-ghactions:cpu: "512"
   esc-pulumi-ghactions:memory: "128"
+environment:
+    - esc-pulumi-ghactions-environment
