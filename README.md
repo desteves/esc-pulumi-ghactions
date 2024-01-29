@@ -67,11 +67,26 @@ $ npm update --save
 $ cd -
 
 
+# Create PR + commit
 $ echo "**node_modules" >> .gitignore
 $ git add .
 $ git commit -m "pipeline test"
+$ gh pr create
 
-# Create PR + commit
+# ? Where should we push the 'add-pipeline' branch? desteves/esc-pulumi-ghactions
+
+# Creating pull request for add-pipeline into main in desteves/esc-pulumi-ghactions
+
+# ? Title pipeline test
+# ? Body <Received>
+# ? What's next? Submit as draft
+# remote: 
+# remote: 
+# To https://github.com/desteves/esc-pulumi-ghactions.git
+#  * [new branch]      HEAD -> add-pipeline
+# branch 'add-pipeline' set up to track 'origin/add-pipeline'.
+# https://github.com/desteves/esc-pulumi-ghactions/pull/1
+
 
 
 # $ pulumi up --dir infra --yes
