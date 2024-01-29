@@ -50,7 +50,7 @@ $ tree -L 2
 
 
 $ echo "environment:" >> infra/Pulumi.dev.yaml
-$ echo "    - esc-pulumi-ghactions-environment" >> infra/Pulumi.dev.yaml
+$ echo "    - esc-pulumi-ghactions-env" >> infra/Pulumi.dev.yaml
 
 
 # <Not shown> add a secret to the gh repo 

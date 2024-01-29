@@ -4,4 +4,4 @@ config:
   esc-pulumi-ghactions:cpu: "512"
   esc-pulumi-ghactions:memory: "128"
 environment:
-    - esc-pulumi-ghactions-environment
+    - esc-pulumi-ghactions-env
